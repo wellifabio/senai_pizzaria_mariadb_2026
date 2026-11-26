@@ -55,121 +55,125 @@ describe Itens_Pedido;
 
 -- Comandos DML para popular o banco de dados com registros
 insert into Cliente(nome, cep, numero, complemento, referencia) values
-("Adelcio Biazi","13900-000","1204","Fundos","Igreja"),
-("Adriano da Silva Ferreira","13910-000","1206",null,"Farmácia"),
-("Alisson Linhares de Carvalho","13920-000","1208",null,null),
-("Amanda Cristina davi Resende","13930-000","1210",null,"Escola"),
-("Ana Cláudia de Moura Laurentino","13960-000","1212",null,null),
-("Ana Claudia Maciel","13900-000","1214","Frente","Campinho"),
-("Argemiro Pentian Junior","13910-000","1216",null,null),
-("Bento Rafael Siqueira","13920-000","1218",null,null),
-("Bernardo Moreira Zabadal","13930-000","1220",null,"suermercado"),
-("Carlos Roberto de Oliveira Cazelatto Junior","13960-000","1222",null,null),
-("Carlos Roberto Do Nascimento Costa","13900-000","1224",null,null),
-("Cesar Augusto Pascali Rago","13910-000","1226",null,null),
-("Claudemir de Souza Freitas Junior","13920-000","507",null,null),
-("Claudiane Mendes Trigueiro Silva","13930-000","601",null,null),
-("Claudiney Ramos Tinoco","13960-000","695","Fundos",null),
-("Danilo César Pereira","13900-000","789",null,null),
-("Darvin Ames","13910-000","883",null,"Igreja"),
-("Debora Barbosa Aires","13920-000","977",null,"Farmácia"),
-("Deivison Shindi Takatu","13930-000","1071","Fundos",null),
-("Denis Henrique Caixeta","13960-000","1165","Fundos","Escola"),
-("Deysiane Matos Sande","13900-000","1259",null,null),
-("Diego Rafael Moraes","13910-000","1353",null,"Campinho"),
-("Diogo Matos da Silva","13920-000","1447","Segundo andar",null),
-("Diogo Paulino da Cruz dos Santos","13930-000","1541",null,null),
-("Douglas Brito damalio","13960-000","1635",null,"suermercado"),
-("Draylson Micael de Souza","13900-000","205",null,null),
-("Eder Almeida Batista de Oliveira","13910-000","206",null,null),
-("Ederlon Barbosa Cruz","13920-000","207",null,null),
-("Edinei Peres Legaspe","13930-000","208","Fundos",null),
-("Ednei Jose de Almeida Junior","13960-000","209",null,null),
-("Eduardo de Paula Lima Nascimento","13900-000","210",null,null),
-("Eduardo Henrique Spies","13910-000","2293",null,null),
-("Elaine Cecília Gatto","13920-000","2387",null,"Igreja"),
-("Elias Adriano Nogueira da Silva","13930-000","2481",null,"Farmácia"),
-("Elis Cristina Montoro Hernandes Ervolino","13960-000","2575",null,null),
-("Erica Aparecida Martins Siqueira","13900-000","2669",null,"Escola"),
-("Erika Arias Barrado","13910-000","2763",null,null),
-("Esteic Janaina Santos Batista","13920-000","2857",null,"Campinho"),
-("Everaldo Costa Silva Neto","13930-000","2951",null,null),
-("Everaldo Silva de Freitas","13960-000","3045",null,null),
-("Ewerton José da Silva","13900-000","3139",null,"suermercado"),
-("Fabio Luiz de Paula","13910-000","3233",null,null),
-("Fabio Serafim","13920-000","3327",null,null),
-("Felipe Gobo Bruno","13930-000","3421",null,"Igreja"),
-("Fernanda Zampieri Canaver","13960-000","3515",null,"Farmácia"),
-("Fernando Claudio dos Santos Junior","13900-000","201",null,null),
-("Fernando Henrique Campos","13910-000","202",null,"Escola"),
-("Flávia Zenaro Nogueira E Silva","13920-000","203",null,null),
-("Floriano Ferreira dos Reis Filho","13930-000","204",null,"Campinho"),
-("Frances Albert Santos","13960-000","205",null,null),
-("Francisco Assis da Silva","13900-000","206",null,null),
-("Francisco Edigleison da Silva Barbosa","13910-000","207",null,"suermercado"),
-("Francisco José Nardi Filho","13920-000","208",null,null),
-("Gabriel Ferreira Teles Gomes","13930-000","209",null,null),
-("Gabriel Morais Silveira","13960-000","210",null,null),
-("Gabriel Sgorlon Tininis","13900-000","211",null,null),
-("Gabriel Spadon de Souza","13910-000","212",null,null),
-("Gerson Luiz Camillo","13920-000","213",null,null),
-("Giovani Bertolla Sampaio","13930-000","1917",null,null),
-("Giovanna Nascimento Antonieti","13960-000","2011",null,null),
-("Gustavo Moreira Calixto","13900-000","2105",null,"Igreja"),
-("Helder Pestana","13910-000","2199",null,"Farmácia"),
-("Hiago Araujo Silva","13920-000","2293",null,null),
-("Higor Antonio delsoto","13930-000","2387",null,"Escola"),
-("Icaro Cavalcante Dourado","13960-000","2481",null,null),
-("Ingrid Marçal","13900-000","2575",null,"Campinho"),
-("Jeane Aparecida Menegueli","13910-000","222",null,null),
-("Jefferson Barbosa Belo da Silva","13920-000","223",null,null),
-("Jefferson Carlos Pedroso","13930-000","224",null,"suermercado"),
-("Jessé Italo Silva","13960-000","225",null,null),
-("José Eugênio de Mira","13900-000","226",null,null),
-("José Rafael Pilan","13910-000","227",null,null),
-("José Renato Paviotti","13920-000","228",null,null),
-("José Santiago Moreira de Mello","13930-000","229",null,null),
-("Josiane Rosa de Oliveira Gaia Pimenta","13960-000","230",null,null),
-("Juliana de Sousa Ribeiro","13900-000","231",null,null),
-("Liliam Sayuri Sakamoto","13910-000","232",null,"Igreja"),
-("Lucas Hermann Negri","13920-000","233",null,"Farmácia"),
-("Luciano Rossi","13930-000","234",null,null),
-("Luciano Rovanni Do Nascimento","13960-000","235",null,"Escola"),
-("Marcelo Do Carmo Vieira Scomparim","13900-000","236",null,null),
-("Marcelo José Vigorito Campara","13910-000","237",null,"Campinho"),
-("Murilo Gleyson Gazzola","13920-000","238",null,null),
-("Ovídio José Francisco","13930-000","239",null,null),
-("Patrícia Fernanda da Silva Freitas","13960-000","240",null,"suermercado"),
-("Paula Leticia Santos Lima","13900-000","241",null,null),
-("Rafael Tomé de Souza","13910-000","242",null,null),
-("Rafaela de Jesus Alencar","13920-000","243",null,"Igreja"),
-("Ramon Simões Abílio","13930-000","244",null,"Farmácia"),
-("Raphael Hungaro Moretti","13960-000","245",null,null),
-("Sara Luzia de Melo","13900-000","246",null,"Escola"),
-("Sergio Willians Poneli","13910-000","247",null,null),
-("Silvia Roberta de Jesus Garcia","13920-000","248",null,"Campinho"),
-("Suéllen Rodolfo Martinelli","13930-000","249",null,null),
-("Taynara Cerigueli Dutra","13960-000","250",null,null),
-("Thamires de Campos Luz","13900-000","251",null,"suermercado"),
-("Viviane Mello Bonadia dos Santos","13910-000","252",null,null),
-("Walter Paulo Costenaro","13920-000","253",null,null),
-("Wellington Fabio de Oliveira Martins","13930-000","254",null,null),
-("André Luyde da Silva Souza","13960-000","255",null,null),
-("Anisio Alfredo da Silva Junior","13900-000","256",null,null),
-("Carlos César Farias de Souza","13910-000","257",null,null),
-("Dyogo Porfirio Almeida Santos","13920-000","258",null,null),
-("Edinilson da Silva Vida","13930-000","259",null,null),
-("Everton Jose de Souza","Rua Adelcio Biazi","260",null,"Zambom");
+("Adelcio Biazi","13905-621","1204","Fundos","Igreja"),
+("Adriano da Silva Ferreira","13905-527","1206",null,"Farmácia"),
+("Alisson Linhares de Carvalho","13900-540","1208",null,null),
+("Amanda Cristina davi Resende","13905-620","1210",null,"Escola"),
+("Ana Cláudia de Moura Laurentino","13905-523","1212",null,null),
+("Ana Claudia Maciel","13900-370","1214","Frente","Campinho"),
+("Argemiro Pentian Junior","13905-610","1216",null,null),
+("Bento Rafael Siqueira","13905-622","1218",null,null),
+("Bernardo Moreira Zabadal","13905-900","1220",null,"suermercado"),
+("Carlos Roberto de Oliveira Cazelatto Junior","13905-626","1222",null,null),
+("Carlos Roberto Do Nascimento Costa","13905-522","1224",null,null),
+("Cesar Augusto Pascali Rago","13905-600","1226",null,null),
+("Claudemir de Souza Freitas Junior","13905-525","507",null,null),
+("Claudiane Mendes Trigueiro Silva","13900-904","601",null,null),
+("Claudiney Ramos Tinoco","13905-623","695","Fundos",null),
+("Danilo César Pereira","13902-800","789",null,null),
+("Darvin Ames","13900-903","883",null,"Igreja"),
+("Debora Barbosa Aires","13905-625","977",null,"Farmácia"),
+("Deivison Shindi Takatu","13905-628","1071","Fundos",null),
+("Denis Henrique Caixeta","13905-611","1165","Fundos","Escola"),
+("Deysiane Matos Sande","13901-005","1259",null,null),
+("Diego Rafael Moraes","13900-908","1353",null,"Campinho"),
+("Diogo Matos da Silva","13900-907","1447","Segundo andar",null),
+("Diogo Paulino da Cruz dos Santos","13901-005","1541",null,null),
+("Douglas Brito damalio","13903-050","1635",null,"suermercado"),
+("Draylson Micael de Souza","13905-523","205",null,null),
+("Eder Almeida Batista de Oliveira","13905-900","206",null,null),
+("Ederlon Barbosa Cruz","13905-612","207",null,null),
+("Edinei Peres Legaspe","13905-621","208","Fundos",null),
+("Ednei Jose de Almeida Junior","13905-528","209",null,null),
+("Eduardo de Paula Lima Nascimento","13905-520","210",null,null),
+("Eduardo Henrique Spies","13901-004","2293",null,null),
+("Elaine Cecília Gatto","13905-630","2387",null,"Igreja"),
+("Elias Adriano Nogueira da Silva","13905-326","2481",null,"Farmácia"),
+("Elis Cristina Montoro Hernandes Ervolino","13902-763","2575",null,null),
+("Erica Aparecida Martins Siqueira","13905-523","2669",null,"Escola"),
+("Erika Arias Barrado","13905-630","2763",null,null),
+("Esteic Janaina Santos Batista","13905-611","2857",null,"Campinho"),
+("Everaldo Costa Silva Neto","13900-030","2951",null,null),
+("Everaldo Silva de Freitas","13905-528","3045",null,null),
+("Ewerton José da Silva","13905-524","3139",null,"suermercado"),
+("Fabio Luiz de Paula","13905-520","3233",null,null),
+("Fabio Serafim","13901-008","3327",null,null),
+("Felipe Gobo Bruno","13900-904","3421",null,"Igreja"),
+("Fernanda Zampieri Canaver","13901-006","3515",null,"Farmácia"),
+("Fernando Claudio dos Santos Junior","13905-326","201",null,null),
+("Fernando Henrique Campos","13900-010","202",null,"Escola"),
+("Flávia Zenaro Nogueira E Silva","13900-906","203",null,null),
+("Floriano Ferreira dos Reis Filho","13905-620","204",null,"Campinho"),
+("Frances Albert Santos","13901-007","205",null,null),
+("Francisco Assis da Silva","13905-510","206",null,null),
+("Francisco Edigleison da Silva Barbosa","13905-626","207",null,"suermercado"),
+("Francisco José Nardi Filho","13905-524","208",null,null),
+("Gabriel Ferreira Teles Gomes","13905-526","209",null,null),
+("Gabriel Morais Silveira","13900-905","210",null,null),
+("Gabriel Sgorlon Tininis","13905-520","211",null,null),
+("Gabriel Spadon de Souza","13905-521","212",null,null),
+("Gerson Luiz Camillo","13902-800","213",null,null),
+("Giovani Bertolla Sampaio","13900-279","1917",null,null),
+("Giovanna Nascimento Antonieti","13900-510","2011",null,null),
+("Gustavo Moreira Calixto","13900-908","2105",null,"Igreja"),
+("Helder Pestana","13900-010","2199",null,"Farmácia"),
+("Hiago Araujo Silva","13905-600","2293",null,null),
+("Higor Antonio delsoto","13900-905","2387",null,"Escola"),
+("Icaro Cavalcante Dourado","13900-440","2481",null,null),
+("Ingrid Marçal","13905-529","2575",null,"Campinho"),
+("Jeane Aparecida Menegueli","13905-522","222",null,null),
+("Jefferson Barbosa Belo da Silva","13900-373","223",null,null),
+("Jefferson Carlos Pedroso","13901-001","224",null,"suermercado"),
+("Jessé Italo Silva","13900-903","225",null,null),
+("José Eugênio de Mira","13901-007","226",null,null),
+("José Rafael Pilan","13903-050","227",null,null),
+("José Renato Paviotti","13900-510","228",null,null),
+("José Santiago Moreira de Mello","13901-001","229",null,null),
+("Josiane Rosa de Oliveira Gaia Pimenta","13905-521","230",null,null),
+("Juliana de Sousa Ribeiro","13905-612","231",null,null),
+("Liliam Sayuri Sakamoto","13905-610","232",null,"Igreja"),
+("Lucas Hermann Negri","13900-540","233",null,"Farmácia"),
+("Luciano Rossi","13900-370","234",null,null),
+("Luciano Rovanni Do Nascimento","13900-005","235",null,"Escola"),
+("Marcelo Do Carmo Vieira Scomparim","13900-906","236",null,null),
+("Marcelo José Vigorito Campara","13905-600","237",null,"Campinho"),
+("Murilo Gleyson Gazzola","13900-020","238",null,null),
+("Ovídio José Francisco","13905-624","239",null,null),
+("Patrícia Fernanda da Silva Freitas","13905-628","240",null,"suermercado"),
+("Paula Leticia Santos Lima","13905-526","241",null,null),
+("Rafael Tomé de Souza","13900-440","242",null,null),
+("Rafaela de Jesus Alencar","13901-008","243",null,"Igreja"),
+("Ramon Simões Abílio","13905-624","244",null,"Farmácia"),
+("Raphael Hungaro Moretti","13901-006","245",null,null),
+("Sara Luzia de Melo","13900-907","246",null,"Escola"),
+("Sergio Willians Poneli","13905-623","247",null,null),
+("Silvia Roberta de Jesus Garcia","13905-510","248",null,"Campinho"),
+("Suéllen Rodolfo Martinelli","13905-622","249",null,null),
+("Taynara Cerigueli Dutra","13900-030","250",null,null),
+("Thamires de Campos Luz","13905-525","251",null,"suermercado"),
+("Viviane Mello Bonadia dos Santos","13901-004","252",null,null),
+("Walter Paulo Costenaro","13902-763","253",null,null),
+("Wellington Fabio de Oliveira Martins","13900-005","254",null,null),
+("André Luyde da Silva Souza","13905-529","255",null,null),
+("Anisio Alfredo da Silva Junior","13905-527","256",null,null),
+("Carlos César Farias de Souza","13900-279","257",null,null),
+("Dyogo Porfirio Almeida Santos","13905-625","258",null,null),
+("Edinilson da Silva Vida","13900-020","259",null,null),
+("Everton Jose de Souza","13900-373","260",null,"Zambom");
 
+insert into Telefone(cliente_id, numero) values (1,"19993452345"),(1,"19984212444");
+insert into Telefone(cliente_id, tipo, numero) values (1, 'residencial', '1938001001');
+insert into Telefone(cliente_id, tipo, numero) values (1, 'comercial', '1938002001');
+insert into Telefone(cliente_id, numero) values (2,"19932342344"), (2,"19942342355");
+insert into Telefone(cliente_id, tipo, numero) values (2, 'residencial', '1938001002');
+insert into Telefone(cliente_id, tipo, numero) values (2, 'comercial', '1938002002');
+insert into Telefone(cliente_id, numero) values (3,"1934567832"), (3,"1930022834");
+insert into Telefone(cliente_id, tipo, numero) values (3, 'residencial', '1938001003');
+insert into Telefone(cliente_id, tipo, numero) values (3, 'comercial', '1938002003');
+insert into Telefone(cliente_id, numero) values (4,"1934566453"), (4,"1930023351");
+insert into Telefone(cliente_id, tipo, numero) values (4, 'residencial', '1938001004');
+insert into Telefone(cliente_id, tipo, numero) values (4, 'comercial', '1938002004');
 insert into Telefone(cliente_id, numero) values
-(1,"19993452345"),
-(1,"19984212444"),
-(2,"19932342344"),
-(2,"19942342355"),
-(3,"1934567832"),
-(3,"1930022834"),
-(4,"1934566453"),
-(4,"1930023351"),
 (5,"19943454553"),
 (5,"1930026509"),
 (6,"1923234255"),
@@ -433,45 +437,6 @@ insert into Telefone(cliente_id, numero) values
 (105,"1930029060"),
 (105,"1930032703");
 
-insert into Telefone(cliente_id, tipo, numero) values
-(1, 'residencial', '1938001001'),
-(2, 'residencial', '1938001002'),
-(3, 'residencial', '1938001003'),
-(4, 'residencial', '1938001004'),
-(1, 'comercial', '1938002001'),
-(2, 'comercial', '1938002002'),
-(3, 'comercial', '1938002003'),
-(4, 'comercial', '1938002004');
-
--- Inseridos dados de teste sempre recentes utilizando as funções Date_sub() e curdate()
-insert into Pedido(cliente_id, data) values
-(1, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 10 DAY), "13:54:00")),
-(2, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 10 DAY), "12:12:00")),
-(2, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 10 DAY), "14:12:00")),
-(3, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 10 DAY), "14:15:00")),
-(3, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 9 DAY), "17:15:00")),
-(4, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 9 DAY), "15:25:00")),
-(4, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 9 DAY), "18:20:00")),
-(5, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 8 DAY), "18:25:00")),
-(6, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 8 DAY), "21:30:00")),
-(7, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 8 DAY), "00:35:00")),
-(8, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 8 DAY), "20:40:00")),
-(9, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 8 DAY), "23:45:00")),
-(10, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 7 DAY), "22:50:00")),
-(9, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 7 DAY), "23:55:00")),
-(11, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 7 DAY), "13:59:00")),
-(10, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 7 DAY), "09:54:00")),
-(1, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 7 DAY), "08:21:00")),
-(22, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 7 DAY), "09:20:00")),
-(33, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 6 DAY), "09:05:00")),
-(41, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 6 DAY), "14:12:00")),
-(51, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 6 DAY), "11:12:00")),
-(62, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 6 DAY), "13:10:00")),
-(73, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 5 DAY), "13:00:00")),
-(85, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 5 DAY), "15:00:00")),
-(96, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 5 DAY), "16:01:00")),
-(105, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 5 DAY), "17:02:00"));
-
 insert into Pizza(nome, descricao, preco) values("À Moda da Casa","Molho de tomate fresco, mussarela especial, presunto cozido picado, ovos, cebola fatiada, cobertura de catupiry, orégano e azeitonas pretas",32.93);
 insert into Pizza(nome, descricao, preco) values("Alho e Óleo","Molho de tomate fresco, alho crocante coberto com parmesão, orégano e azeitonas pretas",32.77);
 insert into Pizza(nome, descricao, preco) values("Aliche","Molho especial de tomate fresco, filés de aliche importado, orégano e azeitonas pretas",32.61);
@@ -514,8 +479,36 @@ insert into Pizza(nome, descricao, preco) values("Toscana","Molho de tomate fres
 insert into Pizza(nome, descricao, preco) values("Veneza","Molho de tomate fresco, presunto cozido picado, azeitona verde fatiada, cobertura de mussarela especial e orégano",29.25);
 insert into Pizza(nome, descricao, preco) values("Vienense","Molho de tomate fresco, mussarela especial, calabresa especial fatiada, rodelas de cebola, orégano e azeitonas pretas",29.09);
 
--- Itens meio a meio: cada sabor corresponde a meia pizza e metade do preco.
+-- Inseridos dados de teste sempre recentes utilizando as funções Date_sub() e curdate()
+insert into Pedido(cliente_id, data) values
+(1, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 10 DAY), "13:54:00")),
+(2, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 10 DAY), "12:12:00")),
+(2, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 10 DAY), "14:12:00")),
+(3, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 10 DAY), "14:15:00")),
+(3, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 9 DAY), "17:15:00")),
+(4, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 9 DAY), "15:25:00")),
+(4, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 9 DAY), "18:20:00")),
+(5, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 8 DAY), "18:25:00")),
+(6, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 8 DAY), "21:30:00")),
+(7, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 8 DAY), "00:35:00")),
+(8, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 8 DAY), "20:40:00")),
+(9, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 8 DAY), "23:45:00")),
+(10, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 7 DAY), "22:50:00")),
+(9, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 7 DAY), "23:55:00")),
+(11, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 7 DAY), "13:59:00")),
+(10, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 7 DAY), "09:54:00")),
+(1, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 7 DAY), "08:21:00")),
+(22, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 7 DAY), "09:20:00")),
+(33, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 6 DAY), "09:05:00")),
+(41, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 6 DAY), "14:12:00")),
+(51, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 6 DAY), "11:12:00")),
+(62, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 6 DAY), "13:10:00")),
+(73, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 5 DAY), "13:00:00")),
+(85, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 5 DAY), "15:00:00")),
+(96, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 5 DAY), "16:01:00")),
+(105, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 5 DAY), "17:02:00"));
 
+-- Itens meio a meio: cada sabor corresponde a meia pizza e metade do preco.
 insert into Itens_Pedido(pedido_id, pizza_id, quantidade, valor_cobrado) values
 (1,1,0.5, (select preco / 2 from Pizza where id = 1)),
 (1,3,0.5, (select preco / 2 from Pizza where id = 3)),
@@ -611,9 +604,7 @@ insert into Itens_Pedido(pedido_id, pizza_id, quantidade, valor_cobrado) values
 (26,18,3, (select preco from Pizza where id = 18)),
 (26,8,2, (select preco from Pizza where id = 8));
 
-
 -- Atualizar o total de cada pedido com base nos itens registrados.
-
 update Pedido p
 left join (
 	select pedido_id, sum(quantidade * valor_cobrado) as total
@@ -622,11 +613,13 @@ left join (
 ) itens on itens.pedido_id = p.id
 set p.valor_total = coalesce(itens.total, 0);
 
-select * from Cliente;
-select * from Pizza;
-select * from Telefone;
-select * from Pedido;
-select * from Itens_Pedido;
+-- Criando uma view de clientes com telefones
+create view vw_clientes as
+select c.*, t.numero as telefone, t.tipo from Cliente c inner join telefone t on c.id = t.cliente_id;
+select * from vw_clientes limit 10;
+select * from Pizza limit 10;
+select * from Pedido limit 10;
+select * from Itens_Pedido limit 10;
 
 -- Mostrar todas as tabelas no fim do script
 show tables;
