@@ -224,7 +224,7 @@ delimiter ;
 
 DROP VIEW IF EXISTS vw_pedidos_full;
 CREATE VIEW vw_pedidos_full AS
-SELECT c.nome as cliente, i.pizza_id, pi.nome AS pizza, i.quantidade, moeda(i.valor_cobrado) AS preco_unitario, moeda(i.valor_cobrado * i.quantidade) AS subtotal, p.*
+SELECT p.id as pedido_id, c.nome as cliente, p.data, i.pizza_id, pi.nome AS pizza, i.quantidade, moeda(i.valor_cobrado) AS preco_unitario, moeda(i.valor_cobrado * i.quantidade) AS subtotal, moeda(p.valor_total) as total
 FROM pedido p INNER JOIN itens_pedido i
 ON p.id = i.pedido_id
 LEFT JOIN cliente c
