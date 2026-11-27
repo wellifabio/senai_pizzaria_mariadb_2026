@@ -277,6 +277,7 @@ show tables;
 ## Testes
 - Script DML com alguns dados de teste
 ```sql
+use pizzaria;
 insert into Cliente(nome, cep, numero, complemento, referencia) values
 ("Adelcio Biazi","13905-621","1204","Fundos","Igreja"),
 ("Adriano da Silva Ferreira","13905-527","1206",null,"Farmacia"),
