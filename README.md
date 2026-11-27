@@ -321,4 +321,5 @@ insert into Itens_Pedido(pedido_id, pizza_id, quantidade, valor_cobrado) values
 select * from pizza;
 select * from vw_clientes;
 select * from vw_pedidos_full;
+
 ```
