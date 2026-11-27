@@ -291,7 +291,9 @@ show tables;
 </details>
 
 <details><summary><h3>Resultados</h3></summary>
+
 Manipulando dados de teste com ccript SQL DML e vendo resultados
+
 ```sql
 use pizzaria;
 insert into Cliente(nome, cep, numero, complemento, referencia) values
