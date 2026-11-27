@@ -69,13 +69,15 @@ flowchart LR
 
     %% Estilização
     classDef pk font-weight:bold,text-decoration:underline;
+    classDef pk_escuro fill:#666666;
     classDef fk font-style:italic,text-decoration:underline dotted;
     classDef entidades fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
     classDef derivados stroke-dasharray: 3 3;
     classDef relacionamentos fill:#fff3e0,stroke:#000000,stroke-width:1px;
     classDef atributos fill:none,stroke:none;
-    class t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15,t16,t17,t18,t19,t20,t21,t22,t23 atributos
-    class t8,t16,t20,t21 fk
+    class t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15,t16,t17,t18,t19,t20,t21,t22,t23 atributos;
+    class t8,t16,t20,t21 fk;
+    class c1,c7,c11,c15,c19 pk_escuro;
     class c23,c18 derivados;
     class Cliente,Telefone,Pizza,Pedido,Itens_pedido entidades
     class Possui,Faz,Contem,Esta relacionamentos
