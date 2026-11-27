@@ -1,4 +1,4 @@
--- Script de criação e população de banco de dados de uma pizzaria
+-- Script de criacao e populacao de banco de dados de uma pizzaria
 -- Comandos DDL para criar a estrutura do banco de dados
 drop database if exists Pizzaria;
 create database Pizzaria charset=UTF8 collate utf8_general_ci;
@@ -56,10 +56,10 @@ describe Itens_Pedido;
 -- Comandos DML para popular o banco de dados com registros
 insert into Cliente(nome, cep, numero, complemento, referencia) values
 ("Adelcio Biazi","13905-621","1204","Fundos","Igreja"),
-("Adriano da Silva Ferreira","13905-527","1206",null,"Farmácia"),
+("Adriano da Silva Ferreira","13905-527","1206",null,"Farmacia"),
 ("Alisson Linhares de Carvalho","13900-540","1208",null,null),
 ("Amanda Cristina davi Resende","13905-620","1210",null,"Escola"),
-("Ana Cláudia de Moura Laurentino","13905-523","1212",null,null),
+("Ana Claudia de Moura Laurentino","13905-523","1212",null,null),
 ("Ana Claudia Maciel","13900-370","1214","Frente","Campinho"),
 ("Argemiro Pentian Junior","13905-610","1216",null,null),
 ("Bento Rafael Siqueira","13905-622","1218",null,null),
@@ -70,9 +70,9 @@ insert into Cliente(nome, cep, numero, complemento, referencia) values
 ("Claudemir de Souza Freitas Junior","13905-525","507",null,null),
 ("Claudiane Mendes Trigueiro Silva","13900-904","601",null,null),
 ("Claudiney Ramos Tinoco","13905-623","695","Fundos",null),
-("Danilo César Pereira","13902-800","789",null,null),
+("Danilo Cesar Pereira","13902-800","789",null,null),
 ("Darvin Ames","13900-903","883",null,"Igreja"),
-("Debora Barbosa Aires","13905-625","977",null,"Farmácia"),
+("Debora Barbosa Aires","13905-625","977",null,"Farmacia"),
 ("Deivison Shindi Takatu","13905-628","1071","Fundos",null),
 ("Denis Henrique Caixeta","13905-611","1165","Fundos","Escola"),
 ("Deysiane Matos Sande","13901-005","1259",null,null),
@@ -87,27 +87,27 @@ insert into Cliente(nome, cep, numero, complemento, referencia) values
 ("Ednei Jose de Almeida Junior","13905-528","209",null,null),
 ("Eduardo de Paula Lima Nascimento","13905-520","210",null,null),
 ("Eduardo Henrique Spies","13901-004","2293",null,null),
-("Elaine Cecília Gatto","13905-630","2387",null,"Igreja"),
-("Elias Adriano Nogueira da Silva","13905-326","2481",null,"Farmácia"),
+("Elaine Cecilia Gatto","13905-630","2387",null,"Igreja"),
+("Elias Adriano Nogueira da Silva","13905-326","2481",null,"Farmacia"),
 ("Elis Cristina Montoro Hernandes Ervolino","13902-763","2575",null,null),
 ("Erica Aparecida Martins Siqueira","13905-523","2669",null,"Escola"),
 ("Erika Arias Barrado","13905-630","2763",null,null),
 ("Esteic Janaina Santos Batista","13905-611","2857",null,"Campinho"),
 ("Everaldo Costa Silva Neto","13900-030","2951",null,null),
 ("Everaldo Silva de Freitas","13905-528","3045",null,null),
-("Ewerton José da Silva","13905-524","3139",null,"suermercado"),
+("Ewerton Jose da Silva","13905-524","3139",null,"suermercado"),
 ("Fabio Luiz de Paula","13905-520","3233",null,null),
 ("Fabio Serafim","13901-008","3327",null,null),
 ("Felipe Gobo Bruno","13900-904","3421",null,"Igreja"),
-("Fernanda Zampieri Canaver","13901-006","3515",null,"Farmácia"),
+("Fernanda Zampieri Canaver","13901-006","3515",null,"Farmacia"),
 ("Fernando Claudio dos Santos Junior","13905-326","201",null,null),
 ("Fernando Henrique Campos","13900-010","202",null,"Escola"),
-("Flávia Zenaro Nogueira E Silva","13900-906","203",null,null),
+("Flavia Zenaro Nogueira E Silva","13900-906","203",null,null),
 ("Floriano Ferreira dos Reis Filho","13905-620","204",null,"Campinho"),
 ("Frances Albert Santos","13901-007","205",null,null),
 ("Francisco Assis da Silva","13905-510","206",null,null),
 ("Francisco Edigleison da Silva Barbosa","13905-626","207",null,"suermercado"),
-("Francisco José Nardi Filho","13905-524","208",null,null),
+("Francisco Jose Nardi Filho","13905-524","208",null,null),
 ("Gabriel Ferreira Teles Gomes","13905-526","209",null,null),
 ("Gabriel Morais Silveira","13900-905","210",null,null),
 ("Gabriel Sgorlon Tininis","13905-520","211",null,null),
@@ -116,47 +116,47 @@ insert into Cliente(nome, cep, numero, complemento, referencia) values
 ("Giovani Bertolla Sampaio","13900-279","1917",null,null),
 ("Giovanna Nascimento Antonieti","13900-510","2011",null,null),
 ("Gustavo Moreira Calixto","13900-908","2105",null,"Igreja"),
-("Helder Pestana","13900-010","2199",null,"Farmácia"),
+("Helder Pestana","13900-010","2199",null,"Farmacia"),
 ("Hiago Araujo Silva","13905-600","2293",null,null),
 ("Higor Antonio delsoto","13900-905","2387",null,"Escola"),
 ("Icaro Cavalcante Dourado","13900-440","2481",null,null),
-("Ingrid Marçal","13905-529","2575",null,"Campinho"),
+("Ingrid Marcal","13905-529","2575",null,"Campinho"),
 ("Jeane Aparecida Menegueli","13905-522","222",null,null),
 ("Jefferson Barbosa Belo da Silva","13900-373","223",null,null),
 ("Jefferson Carlos Pedroso","13901-001","224",null,"suermercado"),
-("Jessé Italo Silva","13900-903","225",null,null),
-("José Eugênio de Mira","13901-007","226",null,null),
-("José Rafael Pilan","13903-050","227",null,null),
-("José Renato Paviotti","13900-510","228",null,null),
-("José Santiago Moreira de Mello","13901-001","229",null,null),
+("Jesse Italo Silva","13900-903","225",null,null),
+("Jose Eugenio de Mira","13901-007","226",null,null),
+("Jose Rafael Pilan","13903-050","227",null,null),
+("Jose Renato Paviotti","13900-510","228",null,null),
+("Jose Santiago Moreira de Mello","13901-001","229",null,null),
 ("Josiane Rosa de Oliveira Gaia Pimenta","13905-521","230",null,null),
 ("Juliana de Sousa Ribeiro","13905-612","231",null,null),
 ("Liliam Sayuri Sakamoto","13905-610","232",null,"Igreja"),
-("Lucas Hermann Negri","13900-540","233",null,"Farmácia"),
+("Lucas Hermann Negri","13900-540","233",null,"Farmacia"),
 ("Luciano Rossi","13900-370","234",null,null),
 ("Luciano Rovanni Do Nascimento","13900-005","235",null,"Escola"),
 ("Marcelo Do Carmo Vieira Scomparim","13900-906","236",null,null),
-("Marcelo José Vigorito Campara","13905-600","237",null,"Campinho"),
+("Marcelo Jose Vigorito Campara","13905-600","237",null,"Campinho"),
 ("Murilo Gleyson Gazzola","13900-020","238",null,null),
-("Ovídio José Francisco","13905-624","239",null,null),
-("Patrícia Fernanda da Silva Freitas","13905-628","240",null,"suermercado"),
+("Ovidio Jose Francisco","13905-624","239",null,null),
+("Patricia Fernanda da Silva Freitas","13905-628","240",null,"suermercado"),
 ("Paula Leticia Santos Lima","13905-526","241",null,null),
-("Rafael Tomé de Souza","13900-440","242",null,null),
+("Rafael Tome de Souza","13900-440","242",null,null),
 ("Rafaela de Jesus Alencar","13901-008","243",null,"Igreja"),
-("Ramon Simões Abílio","13905-624","244",null,"Farmácia"),
+("Ramon Simoes Abilio","13905-624","244",null,"Farmacia"),
 ("Raphael Hungaro Moretti","13901-006","245",null,null),
 ("Sara Luzia de Melo","13900-907","246",null,"Escola"),
 ("Sergio Willians Poneli","13905-623","247",null,null),
 ("Silvia Roberta de Jesus Garcia","13905-510","248",null,"Campinho"),
-("Suéllen Rodolfo Martinelli","13905-622","249",null,null),
+("Suellen Rodolfo Martinelli","13905-622","249",null,null),
 ("Taynara Cerigueli Dutra","13900-030","250",null,null),
 ("Thamires de Campos Luz","13905-525","251",null,"suermercado"),
 ("Viviane Mello Bonadia dos Santos","13901-004","252",null,null),
 ("Walter Paulo Costenaro","13902-763","253",null,null),
 ("Wellington Fabio de Oliveira Martins","13900-005","254",null,null),
-("André Luyde da Silva Souza","13905-529","255",null,null),
+("Andre Luyde da Silva Souza","13905-529","255",null,null),
 ("Anisio Alfredo da Silva Junior","13905-527","256",null,null),
-("Carlos César Farias de Souza","13900-279","257",null,null),
+("Carlos Cesar Farias de Souza","13900-279","257",null,null),
 ("Dyogo Porfirio Almeida Santos","13905-625","258",null,null),
 ("Edinilson da Silva Vida","13900-020","259",null,null),
 ("Everton Jose de Souza","13900-373","260",null,"Zambom");
@@ -437,49 +437,49 @@ insert into Telefone(cliente_id, numero) values
 (105,"1930029060"),
 (105,"1930032703");
 
-insert into Pizza(nome, descricao, preco) values("À Moda da Casa","Molho de tomate fresco, mussarela especial, presunto cozido picado, ovos, cebola fatiada, cobertura de catupiry, orégano e azeitonas pretas",32.93);
-insert into Pizza(nome, descricao, preco) values("Alho e Óleo","Molho de tomate fresco, alho crocante coberto com parmesão, orégano e azeitonas pretas",32.77);
-insert into Pizza(nome, descricao, preco) values("Aliche","Molho especial de tomate fresco, filés de aliche importado, orégano e azeitonas pretas",32.61);
-insert into Pizza(nome, descricao, preco) values("Ao Funghi","Molho de tomate fresco, mussarela especial, champignon fatiado, manjericão fresco, orégano e azeitonas pretas",32.45);
-insert into Pizza(nome, descricao, preco) values("Atum","Molho de tomate fresco, atum especial sólido, cebola fatiada, orégano e azeitonas pretas",32.29);
-insert into Pizza(nome, descricao, preco) values("Baiana","Molho de tomate fresco, calabresa moída levemente apimentada, ovos cozidos picados, cebola fatiada, orégano e azeitonas pretas",32.13);
-insert into Pizza(nome, descricao, preco) values("Bauru","Molho de tomate fresco, presunto cozido picado, mussarela especial, rodelas de tomate, orégano e azeitonas pretas",31.97);
-insert into Pizza(nome, descricao, preco) values("Caipira","Molho de tomate fresco, frango desfiado levemente temperado, cobertura de catupiry, milho verde, orégano e azeitonas pretas",31.81);
-insert into Pizza(nome, descricao, preco) values("Calabresa","Molho de tomate fresco, calabresa especial fatiada, rodelas de cebola, orégano e azeitonas pretas",31.65);
-insert into Pizza(nome, descricao, preco) values("Camponesa","Molho de tomate fresco, cobertura de catupiry, milho verde, orégano e azeitonas pretas",31.49);
-insert into Pizza(nome, descricao, preco) values("Canadense","Molho de tomate fresco, lombo canadense fatiado, cobertura de catupiry, rodelas de cebola, orégano e azeitonas pretas",31.33);
-insert into Pizza(nome, descricao, preco) values("Capri","Molho de tomate fresco, fatias de lombo canadense, mussarela especial, rodelas de tomate, manjericão fresco, orégano e azeitonas pretas",31.17);
-insert into Pizza(nome, descricao, preco) values("Catupiry","Molho de tomate fresco, cobertura de catupiry, orégano e azeitonas pretas",31.01);
-insert into Pizza(nome, descricao, preco) values("Cubana","Molho de tomate fresco, peito de frango desfiado levemente temperado, coberto com mussarela especial, polvilhado de parmesão, orégano e azeitonas pretas",30.85);
-insert into Pizza(nome, descricao, preco) values("Escarola","Molho de tomate fresco, escarola refogada alho e óleo, filés de aliche importada, coberta com mussarela especial, orégano e azeitonas pretas",35.49);
-insert into Pizza(nome, descricao, preco) values("Firense","Molho de tomate fresco, atum sólido especial, milho verde, coberto com catupiry, orégano e azeitonas pretas",35.33);
-insert into Pizza(nome, descricao, preco) values("Frango","Molho de tomate fresco, peito de frango desfiado levemente temperado, coberto com catupiry, orégano e azeitonas pretas",35.17);
-insert into Pizza(nome, descricao, preco) values("Gramute","Molho de tomate fresco, mussarela especial, presunto cozido picado, champignon fatiado, orégano e azeitonas pretas",35.01);
-insert into Pizza(nome, descricao, preco) values("Gratinada","Molho de tomate fresco, cobertura de catupiry, camada de provolone , salpicada de parmesão, orégano e azeitonas pretas",34.85);
-insert into Pizza(nome, descricao, preco) values("Grega","Molho de tomate fresco, palmito macio em rodelas, ervilhas, cobertura de mussarela especial, orégano e azeitonas pretas",34.69);
-insert into Pizza(nome, descricao, preco) values("Imperial","Molho de tomate fresco, mussarela especial, atum sólido, champignon fatiado, orégano e azeitonas pretas",34.53);
-insert into Pizza(nome, descricao, preco) values("Margherita","Molho de tomate fresco, mussarela especial, rodelas de tomate, salpicada de parmesão, manjericão fresco, orégano e azeitonas pretas",34.37);
-insert into Pizza(nome, descricao, preco) values("Matriciana","Molho de tomate fresco, mussarela especial, champignon fatiado, cobertura de parmesão, orégano e azeitonas pretas",34.21);
-insert into Pizza(nome, descricao, preco) values("Mexicana","Molho de tomate fresco, mussarela especial, presunto cozido picado, milho verde, orégano e azeitonas pretas",34.05);
-insert into Pizza(nome, descricao, preco) values("Moda do Clientes","Molho de tomate fresco, livre escolha dos ingredientes ( máx.4 ), orégano e azeitonas pretas",33.89);
-insert into Pizza(nome, descricao, preco) values("Mussarela","Molho de tomate fresco, cobertura de mussarela especial, orégano e azeitonas pretas",33.73);
-insert into Pizza(nome, descricao, preco) values("Napolitalho","Molho de tomate fresco, mussarela especial, rodelas de tomate, queijo parmesão, alho crocante, orégano e azeitonas pretas",33.57);
-insert into Pizza(nome, descricao, preco) values("Napolitana","Molho de tomate fresco, mussarela especial, rodelas de tomate, queijo parmesão, orégano e azeitonas pretas",33.41);
-insert into Pizza(nome, descricao, preco) values("Oba Oba","Molho de tomate fresco, peito de frango desfiado levemente temperado, mussarela especial, bacon fatiado, orégano e azeitonas pretas",33.25);
-insert into Pizza(nome, descricao, preco) values("Palmito","Molho de tomate fresco, palmito macio em rodelas, coberto com catupiry, orégano e azeitonas pretas",33.09);
-insert into Pizza(nome, descricao, preco) values("Portuguesa","Molho de tomate fresco, presunto cozido, ovos picados, rodelas de cebola, cobertura de mussarela especial, orégano e azeitonas pretas",30.69);
-insert into Pizza(nome, descricao, preco) values("Provolone","Molho de tomate fresco, coberto com queijo provolone, champignon fatiado, rodelas de tomate, orégano e azeitonas pretas",30.53);
-insert into Pizza(nome, descricao, preco) values("Quatro Queijos","Molho de tomate fresco, mussarela especial, camada de catupiry, provolone, salpicado com gorgonzola, orégano e azeitonas pretas",30.37);
-insert into Pizza(nome, descricao, preco) values("Romana","Molho de tomate fresco, mussarela especial, rodelas de tomate, filés de aliche importado, orégano e azeitonas pretas",30.21);
-insert into Pizza(nome, descricao, preco) values("Rústica","Molho de tomate fresco, calabresa especial fatiada, alho crocante, rodelas de cebola, orégano e azeitonas pretas",30.05);
-insert into Pizza(nome, descricao, preco) values("Se Liga","molho de tomate fresco, fatias de lombo canadense, cobertura de provolone, orégano e azeitonas pretas",29.89);
-insert into Pizza(nome, descricao, preco) values("Siciliana","Molho de tomate fresco, mussarela especial, fatias de bacon, champignon fatiado, orégano e azeitonas pretas",29.73);
-insert into Pizza(nome, descricao, preco) values("Torino","Molho de tomate fresco, calabresa especial fatiada, palmito macio em rodelas, orégano e azeitonas pretas",29.57);
-insert into Pizza(nome, descricao, preco) values("Toscana","Molho de tomate fresco, calabresa moída especial, cobertura de mussarela, orégano e azeitonas pretas",29.41);
-insert into Pizza(nome, descricao, preco) values("Veneza","Molho de tomate fresco, presunto cozido picado, azeitona verde fatiada, cobertura de mussarela especial e orégano",29.25);
-insert into Pizza(nome, descricao, preco) values("Vienense","Molho de tomate fresco, mussarela especial, calabresa especial fatiada, rodelas de cebola, orégano e azeitonas pretas",29.09);
+insert into Pizza(nome, descricao, preco) values("A Moda da Casa","Molho de tomate fresco, mussarela especial, presunto cozido picado, ovos, cebola fatiada, cobertura de catupiry, oregano e azeitonas pretas",32.93);
+insert into Pizza(nome, descricao, preco) values("Alho e oleo","Molho de tomate fresco, alho crocante coberto com parmesao, oregano e azeitonas pretas",32.77);
+insert into Pizza(nome, descricao, preco) values("Aliche","Molho especial de tomate fresco, files de aliche importado, oregano e azeitonas pretas",32.61);
+insert into Pizza(nome, descricao, preco) values("Ao Funghi","Molho de tomate fresco, mussarela especial, champignon fatiado, manjericao fresco, oregano e azeitonas pretas",32.45);
+insert into Pizza(nome, descricao, preco) values("Atum","Molho de tomate fresco, atum especial solido, cebola fatiada, oregano e azeitonas pretas",32.29);
+insert into Pizza(nome, descricao, preco) values("Baiana","Molho de tomate fresco, calabresa moida levemente apimentada, ovos cozidos picados, cebola fatiada, oregano e azeitonas pretas",32.13);
+insert into Pizza(nome, descricao, preco) values("Bauru","Molho de tomate fresco, presunto cozido picado, mussarela especial, rodelas de tomate, oregano e azeitonas pretas",31.97);
+insert into Pizza(nome, descricao, preco) values("Caipira","Molho de tomate fresco, frango desfiado levemente temperado, cobertura de catupiry, milho verde, oregano e azeitonas pretas",31.81);
+insert into Pizza(nome, descricao, preco) values("Calabresa","Molho de tomate fresco, calabresa especial fatiada, rodelas de cebola, oregano e azeitonas pretas",31.65);
+insert into Pizza(nome, descricao, preco) values("Camponesa","Molho de tomate fresco, cobertura de catupiry, milho verde, oregano e azeitonas pretas",31.49);
+insert into Pizza(nome, descricao, preco) values("Canadense","Molho de tomate fresco, lombo canadense fatiado, cobertura de catupiry, rodelas de cebola, oregano e azeitonas pretas",31.33);
+insert into Pizza(nome, descricao, preco) values("Capri","Molho de tomate fresco, fatias de lombo canadense, mussarela especial, rodelas de tomate, manjericao fresco, oregano e azeitonas pretas",31.17);
+insert into Pizza(nome, descricao, preco) values("Catupiry","Molho de tomate fresco, cobertura de catupiry, oregano e azeitonas pretas",31.01);
+insert into Pizza(nome, descricao, preco) values("Cubana","Molho de tomate fresco, peito de frango desfiado levemente temperado, coberto com mussarela especial, polvilhado de parmesao, oregano e azeitonas pretas",30.85);
+insert into Pizza(nome, descricao, preco) values("Escarola","Molho de tomate fresco, escarola refogada alho e oleo, files de aliche importada, coberta com mussarela especial, oregano e azeitonas pretas",35.49);
+insert into Pizza(nome, descricao, preco) values("Firense","Molho de tomate fresco, atum solido especial, milho verde, coberto com catupiry, oregano e azeitonas pretas",35.33);
+insert into Pizza(nome, descricao, preco) values("Frango","Molho de tomate fresco, peito de frango desfiado levemente temperado, coberto com catupiry, oregano e azeitonas pretas",35.17);
+insert into Pizza(nome, descricao, preco) values("Gramute","Molho de tomate fresco, mussarela especial, presunto cozido picado, champignon fatiado, oregano e azeitonas pretas",35.01);
+insert into Pizza(nome, descricao, preco) values("Gratinada","Molho de tomate fresco, cobertura de catupiry, camada de provolone , salpicada de parmesao, oregano e azeitonas pretas",34.85);
+insert into Pizza(nome, descricao, preco) values("Grega","Molho de tomate fresco, palmito macio em rodelas, ervilhas, cobertura de mussarela especial, oregano e azeitonas pretas",34.69);
+insert into Pizza(nome, descricao, preco) values("Imperial","Molho de tomate fresco, mussarela especial, atum solido, champignon fatiado, oregano e azeitonas pretas",34.53);
+insert into Pizza(nome, descricao, preco) values("Margherita","Molho de tomate fresco, mussarela especial, rodelas de tomate, salpicada de parmesao, manjericao fresco, oregano e azeitonas pretas",34.37);
+insert into Pizza(nome, descricao, preco) values("Matriciana","Molho de tomate fresco, mussarela especial, champignon fatiado, cobertura de parmesao, oregano e azeitonas pretas",34.21);
+insert into Pizza(nome, descricao, preco) values("Mexicana","Molho de tomate fresco, mussarela especial, presunto cozido picado, milho verde, oregano e azeitonas pretas",34.05);
+insert into Pizza(nome, descricao, preco) values("Moda do Clientes","Molho de tomate fresco, livre escolha dos ingredientes ( max.4 ), oregano e azeitonas pretas",33.89);
+insert into Pizza(nome, descricao, preco) values("Mussarela","Molho de tomate fresco, cobertura de mussarela especial, oregano e azeitonas pretas",33.73);
+insert into Pizza(nome, descricao, preco) values("Napolitalho","Molho de tomate fresco, mussarela especial, rodelas de tomate, queijo parmesao, alho crocante, oregano e azeitonas pretas",33.57);
+insert into Pizza(nome, descricao, preco) values("Napolitana","Molho de tomate fresco, mussarela especial, rodelas de tomate, queijo parmesao, oregano e azeitonas pretas",33.41);
+insert into Pizza(nome, descricao, preco) values("Oba Oba","Molho de tomate fresco, peito de frango desfiado levemente temperado, mussarela especial, bacon fatiado, oregano e azeitonas pretas",33.25);
+insert into Pizza(nome, descricao, preco) values("Palmito","Molho de tomate fresco, palmito macio em rodelas, coberto com catupiry, oregano e azeitonas pretas",33.09);
+insert into Pizza(nome, descricao, preco) values("Portuguesa","Molho de tomate fresco, presunto cozido, ovos picados, rodelas de cebola, cobertura de mussarela especial, oregano e azeitonas pretas",30.69);
+insert into Pizza(nome, descricao, preco) values("Provolone","Molho de tomate fresco, coberto com queijo provolone, champignon fatiado, rodelas de tomate, oregano e azeitonas pretas",30.53);
+insert into Pizza(nome, descricao, preco) values("Quatro Queijos","Molho de tomate fresco, mussarela especial, camada de catupiry, provolone, salpicado com gorgonzola, oregano e azeitonas pretas",30.37);
+insert into Pizza(nome, descricao, preco) values("Romana","Molho de tomate fresco, mussarela especial, rodelas de tomate, files de aliche importado, oregano e azeitonas pretas",30.21);
+insert into Pizza(nome, descricao, preco) values("Rustica","Molho de tomate fresco, calabresa especial fatiada, alho crocante, rodelas de cebola, oregano e azeitonas pretas",30.05);
+insert into Pizza(nome, descricao, preco) values("Se Liga","molho de tomate fresco, fatias de lombo canadense, cobertura de provolone, oregano e azeitonas pretas",29.89);
+insert into Pizza(nome, descricao, preco) values("Siciliana","Molho de tomate fresco, mussarela especial, fatias de bacon, champignon fatiado, oregano e azeitonas pretas",29.73);
+insert into Pizza(nome, descricao, preco) values("Torino","Molho de tomate fresco, calabresa especial fatiada, palmito macio em rodelas, oregano e azeitonas pretas",29.57);
+insert into Pizza(nome, descricao, preco) values("Toscana","Molho de tomate fresco, calabresa moida especial, cobertura de mussarela, oregano e azeitonas pretas",29.41);
+insert into Pizza(nome, descricao, preco) values("Veneza","Molho de tomate fresco, presunto cozido picado, azeitona verde fatiada, cobertura de mussarela especial e oregano",29.25);
+insert into Pizza(nome, descricao, preco) values("Vienense","Molho de tomate fresco, mussarela especial, calabresa especial fatiada, rodelas de cebola, oregano e azeitonas pretas",29.09);
 
--- Inseridos dados de teste sempre recentes utilizando as funções Date_sub() e curdate()
+-- Inseridos dados de teste sempre recentes utilizando as funcoes Date_sub() e curdate()
 insert into Pedido(cliente_id, data) values
 (1, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 10 DAY), "13:54:00")),
 (2, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 10 DAY), "12:12:00")),
