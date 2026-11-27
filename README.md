@@ -35,12 +35,9 @@ flowchart LR
     Cliente --- c4(( )) ~~~ t4[numero]
     Cliente --- c5(( )) ~~~ t5[complemento]
     Cliente --- c6(( )) ~~~ t6[referencia]
-
-    Telefone[Telefone]
-    Telefone --- c7(( )) ~~~ t7[id]:::pk
-    Telefone --- c8(( )) ~~~ t8[cliente_id]
-    Telefone --- c9(( )) ~~~ t9[tipo]
-    Telefone --- c10(( )) ~~~ t10[numero]
+    Cliente --- c7((( ))) ~~~ t7[telefones]
+    t7 --- c9(( )) ~~~ t9[tipo]
+    t7 --- c10(( )) ~~~ t10[numero]
 
     Pizza[Pizza]
     Pizza --- c11(( )) ~~~ t11[id]:::pk
@@ -54,7 +51,7 @@ flowchart LR
     Pedido --- c17(( )) ~~~ t17[data]
     Pedido --- c18(( )) ~~~ t18[valor_total]
 
-    Itens_pedido[Itens_pedido]
+    Itens_pedido{Itens_pedido}
     Itens_pedido --- c19(( )) ~~~ t19[id]:::pk
     Itens_pedido --- c20(( )) ~~~ t20[pedido_id]
     Itens_pedido --- c21(( )) ~~~ t21[pizza_id]
@@ -62,10 +59,8 @@ flowchart LR
     Itens_pedido --- c23(( )) ~~~ t23[valor_cobrado]
     
     %% Relacionamentos
-    Cliente ---|1| Possui{Possui} ---|N| Telefone
     Cliente ---|1| Faz{Faz} ---|N| Pedido
-    Pedido ---|1| Contem{Contem} ---|N| Itens_pedido
-    Pizza ---|1| Esta{Esta} ---|N| Itens_pedido
+    Pedido ---|N| Itens_pedido{Itens_pedido} ---|N| Pizza
 
     %% Estilização
     classDef pk font-weight:bold,text-decoration:underline;
@@ -75,10 +70,10 @@ flowchart LR
     classDef derivados stroke-dasharray: 3 3;
     classDef relacionamentos fill:#fff3e0,stroke:#000000,stroke-width:1px;
     classDef atributos fill:none,stroke:none;
-    class t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15,t16,t17,t18,t19,t20,t21,t22,t23 atributos;
-    class t8,t16,t20,t21 fk;
-    class c1,c7,c11,c15,c19 pk_escuro;
+    class t1,t2,t3,t4,t5,t6,t7,t9,t10,t11,t12,t13,t14,t15,t16,t17,t18,t19,t20,t21,t22,t23 atributos;
+    class t16,t20,t21 fk;
+    class c1,c11,c15,c19 pk_escuro;
     class c23,c18 derivados;
-    class Cliente,Telefone,Pizza,Pedido,Itens_pedido entidades
-    class Possui,Faz,Contem,Esta relacionamentos
+    class Cliente,Telefone,Pizza,Pedido entidades
+    class Possui,Faz,Itens_pedido relacionamentos
 ```
