@@ -23,7 +23,7 @@ Banco de dados com **pedidos** de uma pizzaria contendo MER DER conceitual, lóg
 
 ## MER (Modelo Entidade Relacionamento)
 ### DER Conceitual
-
+- Notação básica
 ```mermaid
 flowchart LR
 
@@ -47,7 +47,7 @@ flowchart LR
 
     Pedido[Pedido]
     Pedido --- c15(( )) ~~~ t15[id]:::pk
-    Pedido --- c16(( )) ~~~ t16[cliente_id]
+    Pedido --- c16(( )) ~~~ t16[Cliente_id]
     Pedido --- c17(( )) ~~~ t17[data]
     Pedido --- c18(( )) ~~~ t18[valor_total]
 
@@ -76,4 +76,52 @@ flowchart LR
     class c23,c18 derivados;
     class Cliente,Telefone,Pizza,Pedido entidades
     class Possui,Faz,Itens_pedido relacionamentos
+```
+- Notação de Peter Cheen
+<br>![DER Conceitual](./der_conceitual.png)
+- DER Lógico
+```mermaid
+erDiagram
+    Cliente ||--o{ Telefone : possui
+    Cliente ||--o{ Pedido : faz
+    Pedido ||--|{ Itens_pedido : contem
+    Pizza ||--o{ Itens_pedido : "esta em"
+
+    Cliente {
+        int id PK
+        string nome
+        string cep
+        string numero
+        string complemento
+        string refeencia
+    }
+
+    Telefone {
+        int id PK
+        int cliente_id FK
+        string tipo
+        string numero
+    }
+
+    Pedido {
+        int id PK
+        int cliente_id FK
+        datetime data
+        decimal valor_total
+    }
+
+    Itens_pedido {
+        int id PK
+        int id_Pedido FK
+        int id_Pizza FK
+        int quantidade
+        decimal preco_unitario
+    }
+
+    Pizza {
+        int id_Pizza PK
+        string nome
+        string descricao
+        decimal preco
+    }
 ```
