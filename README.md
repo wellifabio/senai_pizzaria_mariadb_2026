@@ -304,11 +304,11 @@ insert into Pedido(cliente_id, data) values
 (3, TIMESTAMP(DATE_SUB(CURDATE(), INTERVAL 10 DAY), "14:15:00"));
 
 insert into Itens_Pedido(pedido_id, pizza_id, quantidade, valor_cobrado) values
-(1,1,0.5, (select preco / 2 from Pizza where id = 1)),
-(1,3,0.5, (select preco / 2 from Pizza where id = 3)),
+(1,1,0.5, (select preco from Pizza where id = 1)),
+(1,3,0.5, (select preco from Pizza where id = 3)),
 (1,5,3, (select preco from Pizza where id = 5)),
-(2,4,0.5, (select preco / 2 from Pizza where id = 4)),
-(2,2,0.5, (select preco / 2 from Pizza where id = 2)),
+(2,4,0.5, (select preco from Pizza where id = 4)),
+(2,2,0.5, (select preco from Pizza where id = 2)),
 (2,5,5, (select preco from Pizza where id = 5)),
 (2,3,1, (select preco from Pizza where id = 3)),
 (2,6,2, (select preco from Pizza where id = 6)),

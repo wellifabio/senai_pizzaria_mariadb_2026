@@ -437,47 +437,48 @@ insert into Telefone(cliente_id, numero) values
 (105,"1930029060"),
 (105,"1930032703");
 
-insert into Pizza(nome, descricao, preco) values("A Moda da Casa","Molho de tomate fresco, mussarela especial, presunto cozido picado, ovos, cebola fatiada, cobertura de catupiry, oregano e azeitonas pretas",32.93);
-insert into Pizza(nome, descricao, preco) values("Alho e oleo","Molho de tomate fresco, alho crocante coberto com parmesao, oregano e azeitonas pretas",32.77);
-insert into Pizza(nome, descricao, preco) values("Aliche","Molho especial de tomate fresco, files de aliche importado, oregano e azeitonas pretas",32.61);
-insert into Pizza(nome, descricao, preco) values("Ao Funghi","Molho de tomate fresco, mussarela especial, champignon fatiado, manjericao fresco, oregano e azeitonas pretas",32.45);
-insert into Pizza(nome, descricao, preco) values("Atum","Molho de tomate fresco, atum especial solido, cebola fatiada, oregano e azeitonas pretas",32.29);
-insert into Pizza(nome, descricao, preco) values("Baiana","Molho de tomate fresco, calabresa moida levemente apimentada, ovos cozidos picados, cebola fatiada, oregano e azeitonas pretas",32.13);
-insert into Pizza(nome, descricao, preco) values("Bauru","Molho de tomate fresco, presunto cozido picado, mussarela especial, rodelas de tomate, oregano e azeitonas pretas",31.97);
-insert into Pizza(nome, descricao, preco) values("Caipira","Molho de tomate fresco, frango desfiado levemente temperado, cobertura de catupiry, milho verde, oregano e azeitonas pretas",31.81);
-insert into Pizza(nome, descricao, preco) values("Calabresa","Molho de tomate fresco, calabresa especial fatiada, rodelas de cebola, oregano e azeitonas pretas",31.65);
-insert into Pizza(nome, descricao, preco) values("Camponesa","Molho de tomate fresco, cobertura de catupiry, milho verde, oregano e azeitonas pretas",31.49);
-insert into Pizza(nome, descricao, preco) values("Canadense","Molho de tomate fresco, lombo canadense fatiado, cobertura de catupiry, rodelas de cebola, oregano e azeitonas pretas",31.33);
-insert into Pizza(nome, descricao, preco) values("Capri","Molho de tomate fresco, fatias de lombo canadense, mussarela especial, rodelas de tomate, manjericao fresco, oregano e azeitonas pretas",31.17);
-insert into Pizza(nome, descricao, preco) values("Catupiry","Molho de tomate fresco, cobertura de catupiry, oregano e azeitonas pretas",31.01);
-insert into Pizza(nome, descricao, preco) values("Cubana","Molho de tomate fresco, peito de frango desfiado levemente temperado, coberto com mussarela especial, polvilhado de parmesao, oregano e azeitonas pretas",30.85);
-insert into Pizza(nome, descricao, preco) values("Escarola","Molho de tomate fresco, escarola refogada alho e oleo, files de aliche importada, coberta com mussarela especial, oregano e azeitonas pretas",35.49);
-insert into Pizza(nome, descricao, preco) values("Firense","Molho de tomate fresco, atum solido especial, milho verde, coberto com catupiry, oregano e azeitonas pretas",35.33);
-insert into Pizza(nome, descricao, preco) values("Frango","Molho de tomate fresco, peito de frango desfiado levemente temperado, coberto com catupiry, oregano e azeitonas pretas",35.17);
-insert into Pizza(nome, descricao, preco) values("Gramute","Molho de tomate fresco, mussarela especial, presunto cozido picado, champignon fatiado, oregano e azeitonas pretas",35.01);
-insert into Pizza(nome, descricao, preco) values("Gratinada","Molho de tomate fresco, cobertura de catupiry, camada de provolone , salpicada de parmesao, oregano e azeitonas pretas",34.85);
-insert into Pizza(nome, descricao, preco) values("Grega","Molho de tomate fresco, palmito macio em rodelas, ervilhas, cobertura de mussarela especial, oregano e azeitonas pretas",34.69);
-insert into Pizza(nome, descricao, preco) values("Imperial","Molho de tomate fresco, mussarela especial, atum solido, champignon fatiado, oregano e azeitonas pretas",34.53);
-insert into Pizza(nome, descricao, preco) values("Margherita","Molho de tomate fresco, mussarela especial, rodelas de tomate, salpicada de parmesao, manjericao fresco, oregano e azeitonas pretas",34.37);
-insert into Pizza(nome, descricao, preco) values("Matriciana","Molho de tomate fresco, mussarela especial, champignon fatiado, cobertura de parmesao, oregano e azeitonas pretas",34.21);
-insert into Pizza(nome, descricao, preco) values("Mexicana","Molho de tomate fresco, mussarela especial, presunto cozido picado, milho verde, oregano e azeitonas pretas",34.05);
-insert into Pizza(nome, descricao, preco) values("Moda do Clientes","Molho de tomate fresco, livre escolha dos ingredientes ( max.4 ), oregano e azeitonas pretas",33.89);
-insert into Pizza(nome, descricao, preco) values("Mussarela","Molho de tomate fresco, cobertura de mussarela especial, oregano e azeitonas pretas",33.73);
-insert into Pizza(nome, descricao, preco) values("Napolitalho","Molho de tomate fresco, mussarela especial, rodelas de tomate, queijo parmesao, alho crocante, oregano e azeitonas pretas",33.57);
-insert into Pizza(nome, descricao, preco) values("Napolitana","Molho de tomate fresco, mussarela especial, rodelas de tomate, queijo parmesao, oregano e azeitonas pretas",33.41);
-insert into Pizza(nome, descricao, preco) values("Oba Oba","Molho de tomate fresco, peito de frango desfiado levemente temperado, mussarela especial, bacon fatiado, oregano e azeitonas pretas",33.25);
-insert into Pizza(nome, descricao, preco) values("Palmito","Molho de tomate fresco, palmito macio em rodelas, coberto com catupiry, oregano e azeitonas pretas",33.09);
-insert into Pizza(nome, descricao, preco) values("Portuguesa","Molho de tomate fresco, presunto cozido, ovos picados, rodelas de cebola, cobertura de mussarela especial, oregano e azeitonas pretas",30.69);
-insert into Pizza(nome, descricao, preco) values("Provolone","Molho de tomate fresco, coberto com queijo provolone, champignon fatiado, rodelas de tomate, oregano e azeitonas pretas",30.53);
-insert into Pizza(nome, descricao, preco) values("Quatro Queijos","Molho de tomate fresco, mussarela especial, camada de catupiry, provolone, salpicado com gorgonzola, oregano e azeitonas pretas",30.37);
-insert into Pizza(nome, descricao, preco) values("Romana","Molho de tomate fresco, mussarela especial, rodelas de tomate, files de aliche importado, oregano e azeitonas pretas",30.21);
-insert into Pizza(nome, descricao, preco) values("Rustica","Molho de tomate fresco, calabresa especial fatiada, alho crocante, rodelas de cebola, oregano e azeitonas pretas",30.05);
-insert into Pizza(nome, descricao, preco) values("Se Liga","molho de tomate fresco, fatias de lombo canadense, cobertura de provolone, oregano e azeitonas pretas",29.89);
-insert into Pizza(nome, descricao, preco) values("Siciliana","Molho de tomate fresco, mussarela especial, fatias de bacon, champignon fatiado, oregano e azeitonas pretas",29.73);
-insert into Pizza(nome, descricao, preco) values("Torino","Molho de tomate fresco, calabresa especial fatiada, palmito macio em rodelas, oregano e azeitonas pretas",29.57);
-insert into Pizza(nome, descricao, preco) values("Toscana","Molho de tomate fresco, calabresa moida especial, cobertura de mussarela, oregano e azeitonas pretas",29.41);
-insert into Pizza(nome, descricao, preco) values("Veneza","Molho de tomate fresco, presunto cozido picado, azeitona verde fatiada, cobertura de mussarela especial e oregano",29.25);
-insert into Pizza(nome, descricao, preco) values("Vienense","Molho de tomate fresco, mussarela especial, calabresa especial fatiada, rodelas de cebola, oregano e azeitonas pretas",29.09);
+insert into Pizza(nome, descricao, preco) values
+("A Moda da Casa","Molho de tomate fresco, mussarela especial, presunto cozido picado, ovos, cebola fatiada, cobertura de catupiry, oregano e azeitonas pretas",32.93),
+("Alho e oleo","Molho de tomate fresco, alho crocante coberto com parmesao, oregano e azeitonas pretas",32.77),
+("Aliche","Molho especial de tomate fresco, files de aliche importado, oregano e azeitonas pretas",32.61),
+("Ao Funghi","Molho de tomate fresco, mussarela especial, champignon fatiado, manjericao fresco, oregano e azeitonas pretas",32.45),
+("Atum","Molho de tomate fresco, atum especial solido, cebola fatiada, oregano e azeitonas pretas",32.29),
+("Baiana","Molho de tomate fresco, calabresa moida levemente apimentada, ovos cozidos picados, cebola fatiada, oregano e azeitonas pretas",32.13),
+("Bauru","Molho de tomate fresco, presunto cozido picado, mussarela especial, rodelas de tomate, oregano e azeitonas pretas",31.97),
+("Caipira","Molho de tomate fresco, frango desfiado levemente temperado, cobertura de catupiry, milho verde, oregano e azeitonas pretas",31.81),
+("Calabresa","Molho de tomate fresco, calabresa especial fatiada, rodelas de cebola, oregano e azeitonas pretas",31.65),
+("Camponesa","Molho de tomate fresco, cobertura de catupiry, milho verde, oregano e azeitonas pretas",31.49),
+("Canadense","Molho de tomate fresco, lombo canadense fatiado, cobertura de catupiry, rodelas de cebola, oregano e azeitonas pretas",31.33),
+("Capri","Molho de tomate fresco, fatias de lombo canadense, mussarela especial, rodelas de tomate, manjericao fresco, oregano e azeitonas pretas",31.17),
+("Catupiry","Molho de tomate fresco, cobertura de catupiry, oregano e azeitonas pretas",31.01),
+("Cubana","Molho de tomate fresco, peito de frango desfiado levemente temperado, coberto com mussarela especial, polvilhado de parmesao, oregano e azeitonas pretas",30.85),
+("Escarola","Molho de tomate fresco, escarola refogada alho e oleo, files de aliche importada, coberta com mussarela especial, oregano e azeitonas pretas",35.49),
+("Firense","Molho de tomate fresco, atum solido especial, milho verde, coberto com catupiry, oregano e azeitonas pretas",35.33),
+("Frango","Molho de tomate fresco, peito de frango desfiado levemente temperado, coberto com catupiry, oregano e azeitonas pretas",35.17),
+("Gramute","Molho de tomate fresco, mussarela especial, presunto cozido picado, champignon fatiado, oregano e azeitonas pretas",35.01),
+("Gratinada","Molho de tomate fresco, cobertura de catupiry, camada de provolone , salpicada de parmesao, oregano e azeitonas pretas",34.85),
+("Grega","Molho de tomate fresco, palmito macio em rodelas, ervilhas, cobertura de mussarela especial, oregano e azeitonas pretas",34.69),
+("Imperial","Molho de tomate fresco, mussarela especial, atum solido, champignon fatiado, oregano e azeitonas pretas",34.53),
+("Margherita","Molho de tomate fresco, mussarela especial, rodelas de tomate, salpicada de parmesao, manjericao fresco, oregano e azeitonas pretas",34.37),
+("Matriciana","Molho de tomate fresco, mussarela especial, champignon fatiado, cobertura de parmesao, oregano e azeitonas pretas",34.21),
+("Mexicana","Molho de tomate fresco, mussarela especial, presunto cozido picado, milho verde, oregano e azeitonas pretas",34.05),
+("Moda do Clientes","Molho de tomate fresco, livre escolha dos ingredientes ( max.4 ), oregano e azeitonas pretas",33.89),
+("Mussarela","Molho de tomate fresco, cobertura de mussarela especial, oregano e azeitonas pretas",33.73),
+("Napolitalho","Molho de tomate fresco, mussarela especial, rodelas de tomate, queijo parmesao, alho crocante, oregano e azeitonas pretas",33.57),
+("Napolitana","Molho de tomate fresco, mussarela especial, rodelas de tomate, queijo parmesao, oregano e azeitonas pretas",33.41),
+("Oba Oba","Molho de tomate fresco, peito de frango desfiado levemente temperado, mussarela especial, bacon fatiado, oregano e azeitonas pretas",33.25),
+("Palmito","Molho de tomate fresco, palmito macio em rodelas, coberto com catupiry, oregano e azeitonas pretas",33.09),
+("Portuguesa","Molho de tomate fresco, presunto cozido, ovos picados, rodelas de cebola, cobertura de mussarela especial, oregano e azeitonas pretas",30.69),
+("Provolone","Molho de tomate fresco, coberto com queijo provolone, champignon fatiado, rodelas de tomate, oregano e azeitonas pretas",30.53),
+("Quatro Queijos","Molho de tomate fresco, mussarela especial, camada de catupiry, provolone, salpicado com gorgonzola, oregano e azeitonas pretas",30.37),
+("Romana","Molho de tomate fresco, mussarela especial, rodelas de tomate, files de aliche importado, oregano e azeitonas pretas",30.21),
+("Rustica","Molho de tomate fresco, calabresa especial fatiada, alho crocante, rodelas de cebola, oregano e azeitonas pretas",30.05),
+("Se Liga","molho de tomate fresco, fatias de lombo canadense, cobertura de provolone, oregano e azeitonas pretas",29.89),
+("Siciliana","Molho de tomate fresco, mussarela especial, fatias de bacon, champignon fatiado, oregano e azeitonas pretas",29.73),
+("Torino","Molho de tomate fresco, calabresa especial fatiada, palmito macio em rodelas, oregano e azeitonas pretas",29.57),
+("Toscana","Molho de tomate fresco, calabresa moida especial, cobertura de mussarela, oregano e azeitonas pretas",29.41),
+("Veneza","Molho de tomate fresco, presunto cozido picado, azeitona verde fatiada, cobertura de mussarela especial e oregano",29.25),
+("Vienense","Molho de tomate fresco, mussarela especial, calabresa especial fatiada, rodelas de cebola, oregano e azeitonas pretas",29.09);
 
 -- Inseridos dados de teste sempre recentes utilizando as funcoes Date_sub() e curdate()
 insert into Pedido(cliente_id, data) values
@@ -510,15 +511,15 @@ insert into Pedido(cliente_id, data) values
 
 -- Itens meio a meio: cada sabor corresponde a meia pizza e metade do preco.
 insert into Itens_Pedido(pedido_id, pizza_id, quantidade, valor_cobrado) values
-(1,1,0.5, (select preco / 2 from Pizza where id = 1)),
-(1,3,0.5, (select preco / 2 from Pizza where id = 3)),
+(1,1,0.5, (select preco from Pizza where id = 1)),
+(1,3,0.5, (select preco from Pizza where id = 3)),
 (1,5,3, (select preco from Pizza where id = 5)),
 (1,7,4, (select preco from Pizza where id = 7)),
 (1,8,5, (select preco from Pizza where id = 8)),
 (1,11,1, (select preco from Pizza where id = 11)),
 (1,13,2, (select preco from Pizza where id = 13)),
-(2,1,0.5, (select preco / 2 from Pizza where id = 1)),
-(2,3,0.5, (select preco / 2 from Pizza where id = 3)),
+(2,1,0.5, (select preco from Pizza where id = 1)),
+(2,3,0.5, (select preco from Pizza where id = 3)),
 (2,5,5, (select preco from Pizza where id = 5)),
 (2,7,1, (select preco from Pizza where id = 7)),
 (2,8,2, (select preco from Pizza where id = 8)),
