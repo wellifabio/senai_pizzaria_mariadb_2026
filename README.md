@@ -283,15 +283,11 @@ insert into Cliente(nome, cep, numero, complemento, referencia) values
 ("Adriano da Silva Ferreira","13905-527","1206",null,"Farmacia"),
 ("Alisson Linhares de Carvalho","13900-540","1208",null,null);
 
-insert into Telefone(cliente_id, numero) values (1,"19993452345"),(1,"19984212444");
+insert into Telefone(cliente_id, numero) values (1,"19993452345");
 insert into Telefone(cliente_id, tipo, numero) values (1, 'residencial', '1938001001');
-insert into Telefone(cliente_id, tipo, numero) values (1, 'comercial', '1938002001');
-insert into Telefone(cliente_id, numero) values (2,"19932342344"), (2,"19942342355");
-insert into Telefone(cliente_id, tipo, numero) values (2, 'residencial', '1938001002');
+insert into Telefone(cliente_id, numero) values (2,"19932342344");
 insert into Telefone(cliente_id, tipo, numero) values (2, 'comercial', '1938002002');
 insert into Telefone(cliente_id, numero) values (3,"1934567832"), (3,"1930022834");
-insert into Telefone(cliente_id, tipo, numero) values (3, 'residencial', '1938001003');
-insert into Telefone(cliente_id, tipo, numero) values (3, 'comercial', '1938002003');
 
 insert into Pizza(nome, descricao, preco) values
 ("A Moda da Casa","Molho de tomate fresco, mussarela especial, presunto cozido picado, ovos, cebola fatiada, cobertura de catupiry, oregano e azeitonas pretas",32.93),
