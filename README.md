@@ -23,7 +23,9 @@ Banco de dados com **pedidos** de uma pizzaria contendo MER DER conceitual, lóg
 
 ## MER (Modelo Entidade Relacionamento)
 ### DER Conceitual
-- Notação básica
+
+<details><summary><h4>Notação básica</h4></summary>
+
 ```mermaid
 flowchart LR
 
@@ -77,9 +79,17 @@ flowchart LR
     class Cliente,Telefone,Pizza,Pedido entidades
     class Possui,Faz,Itens_pedido relacionamentos
 ```
-- Notação de Peter Cheen
-<br>![DER Conceitual](./der_conceitual.png)
-### DER Lógico
+
+</details>
+
+<details><summary><h4>Notação de Peter Cheen</h4></summary>
+
+![DER Conceitual](./der_conceitual.png)
+
+</details>
+
+<details><summary><h3>DER Lógico</h3></summary>
+
 ```mermaid
 erDiagram
     Cliente ||--o{ Telefone : possui
@@ -126,7 +136,9 @@ erDiagram
     }
 ```
 
-### Dicionário de dados
+</details>
+
+<details><summary><h3>Dicionário de dados</h3></summary>
 
 |Entidade|Atributo|Tipo|Tamanho|pode ser<br>nulo|Descrição|
 |-|-|:-:|:-:|:-:|-|
@@ -154,7 +166,10 @@ erDiagram
 |Itens_pedido|quantidade|Decimal|6,2|não|Quantidade, tipo decimal pois permite mais de um sabor por pizza (Meio a meio)|
 |Ítens_pedido|valor_cobrado|Decimal|8,2|não|Campo pode ser preenchido com valor diferente do preço caso de promoções ou acrescimos, pode ser derivado multiplicando a quantidade pelo preço da pizza|
 
-### Modelo fízico
+</details>
+
+<details><summary><h3>Modelo Físico</h3></summary>
+
 - Modelo já em linguagem SQL DDL, script de criação com índices visões funções, procedimentos e gatilhos.
 
 ```sql
@@ -273,8 +288,11 @@ describe Itens_Pedido;
 show tables;
 ```
 
-## Testes
-- Script DML com alguns dados de teste
+</details>
+
+<details><summary><h3>Menipulando dados de teste</h3></summary>
+
+Script DML com alguns dados de teste
 ```sql
 use pizzaria;
 insert into Cliente(nome, cep, numero, complemento, referencia) values
@@ -322,3 +340,5 @@ select * from vw_clientes;
 select * from vw_pedidos_full;
 
 ```
+
+</details>
