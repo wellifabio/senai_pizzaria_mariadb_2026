@@ -290,9 +290,8 @@ show tables;
 
 </details>
 
-<details><summary><h3>Menipulando dados de teste</h3></summary>
-
-Script DML com alguns dados de teste
+<details><summary><h3>Resultados</h3></summary>
+Manipulando dados de teste com ccript SQL DML e vendo resultados
 ```sql
 use pizzaria;
 insert into Cliente(nome, cep, numero, complemento, referencia) values
